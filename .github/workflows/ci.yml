@@ -23,3 +23,5 @@ steps:
       - name: Test
         run: pytest tests/ -v
 
+      - name: Lint
+        run: flake8 src/ tests/
